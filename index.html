@@ -39,7 +39,7 @@
                                 Visitantes
                             </li>
                             <li data-theme="c">
-                                <a href="#page3" data-transition="turn">
+                                <a href="#page3" data-transition="slide">
                                     Página abertas
                                 </a>
                             </li>
@@ -110,13 +110,38 @@
         <!-- Páginas Abertas -->
         <div data-role="page" id="page3">
             <div data-theme="a" data-role="header">
+                <a data-role="button" data-direction="reverse" data-rel="back" data-theme="a"
+                href="#page1" data-icon="home" data-iconpos="left" class="ui-btn-left">
+                    Voltar
+                </a>
                 <h3>
                     Páginas Abertas
                 </h3>
             </div>
             <div data-role="content">
-                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Rua Rubião Júnior, 2386 - Boa Vista, São José do Rio Preto, 15025-080&amp;zoom=15&amp;size=288x300&amp;markers=Rua Rubião Júnior, 2386 - Boa Vista, São José do Rio Preto, 15025-080&amp;sensor=false"
-                width="288" height="300">
+                <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        Divider
+                    </li>
+                    <li data-theme="c">
+                        Button
+                    </li>
+                    <li data-theme="c">
+                        Button
+                    </li>
+                    <li data-theme="c">
+                        Button
+                    </li>
+                    <li data-role="list-divider" role="heading">
+                        Divider
+                    </li>
+                    <li data-theme="c">
+                        Button
+                    </li>
+                    <li data-theme="c">
+                        Button
+                    </li>
+                </ul>
             </div>
         </div>
         <script>
